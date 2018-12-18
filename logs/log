@@ -46,3 +46,28 @@ ERROR demo.py:15 error info
 WARNING demo.py:16 warn info
 INFO demo.py:17 info info
 DEBUG demo.py:18 debug info
+ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
+ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
+ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
+WARNING _internal.py:88  * Debugger is active!
+ERROR demo.py:14 error info
+WARNING demo.py:15 warn info
+INFO demo.py:16 info info
+DEBUG demo.py:17 debug info
+ERROR demo.py:14 error info
+WARNING demo.py:15 warn info
+INFO demo.py:16 info info
+DEBUG demo.py:17 debug info
+ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
+ERROR demo.py:14 error info
+WARNING demo.py:15 warn info
+ERROR demo.py:14 error info
+WARNING demo.py:15 warn info
+WARNING _internal.py:88  * Debugger is active!
+ERROR demo.py:14 error info
+WARNING demo.py:15 warn info
+INFO demo.py:16 info info
+DEBUG demo.py:17 debug info
+ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
+ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
+ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.

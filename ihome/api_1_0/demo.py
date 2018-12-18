@@ -1,7 +1,6 @@
 import logging
 from . import api
-from ihome import db
-# import logging
+from ihome import models, db
 from flask import current_app, make_response
 
 
@@ -17,7 +16,6 @@ def index():
     current_app.logger.info("info info")
     current_app.logger.debug("debug info")
     res = make_response('hello')
-    res.headers['Server'] = 'nginx1.0'
     return res
 
 
