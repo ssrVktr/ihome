@@ -71,3 +71,32 @@ DEBUG demo.py:17 debug info
 ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
 ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
 ERROR __init__.py:97 Error: Path doesn't exist: 'migrations'.  Please use the 'init' command to create a new scripts folder.
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR verify_code.py:23 value is not an integer or out of range
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!

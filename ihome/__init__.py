@@ -3,6 +3,7 @@ from config import config_map
 from flask_sqlalchemy import SQLAlchemy
 from flask_session import Session
 from flask_wtf import CSRFProtect
+from ihome.utils.commons import ReConverter
 
 import redis
 import logging
@@ -54,8 +55,15 @@ def create_app(config_name):
     # 为flask补充csrf防护
     CSRFProtect(app)
 
+    # 添加自定义正则匹配路由
+    app.url_map.converters['re'] = ReConverter
+
     # 注册蓝图
     from ihome import api_1_0
     app.register_blueprint(api_1_0.api, url_prefix="/api/v1.0")
+
+    # 注册提供静态文件的蓝图
+    from ihome.web_html import html
+    app.register_blueprint(html)
 
     return app
