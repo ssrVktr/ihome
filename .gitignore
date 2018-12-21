@@ -109,3 +109,5 @@ __pycache__/
 .idea/
 
 config.py
+sms.py
+log

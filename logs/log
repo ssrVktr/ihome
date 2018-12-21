@@ -100,3 +100,16 @@ WARNING _internal.py:88  * Debugger is active!
 WARNING _internal.py:88  * Debugger is active!
 WARNING _internal.py:88  * Debugger is active!
 WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+2018-12-21 17:47:40,795 WARNING _internal.py:88  * Debugger is active!
+2018-12-21 17:47:51,610 WARNING _internal.py:88  * Debugger is active!
+2018-12-21 17:49:42,845 WARNING _internal.py:88  * Debugger is active!
+2018-12-21 18:07:09,703 WARNING _internal.py:88  * Debugger is active!
+2018-12-21 18:07:50,455 WARNING _internal.py:88  * Debugger is active!
+2018-12-21 18:10:29,016 WARNING _internal.py:88  * Debugger is active!
+2018-12-21 18:10:39,623 ERROR verify_code.py:55 'bytes' object has no attribute 'encode'
+2018-12-21 18:11:24,768 WARNING _internal.py:88  * Debugger is active!
+2018-12-21 18:11:29,468 ERROR verify_code.py:89 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
