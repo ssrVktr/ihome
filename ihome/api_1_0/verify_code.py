@@ -36,7 +36,7 @@ def get_image_code(image_code_id):
 def get_sms_code(mobile):
     """
     获取短信验证码
-    :param mobile: 注册用手机号
+    :param mobile: 注册用手机号,图片验证码,验证码的uuid
     :return: json字符串{'errno':'xxx', 'errmsg': 'xxx'}
     """
     # 获取数据
@@ -50,7 +50,6 @@ def get_sms_code(mobile):
     # 从redis中取出真实的验证码
     try:
         real_image_code = redis_store.get('image_code_%s' % image_code_id)
-        real_image_code = real_image_code.decode()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='redis数据库异常')
@@ -67,8 +66,10 @@ def get_sms_code(mobile):
         current_app.logger.error(e)
 
     # 与用户填写的值进行对比
-    print(real_image_code, '---', image_code)
-    print(type(real_image_code))
+    # print(real_image_code, '---', image_code)
+    # print(type(real_image_code))
+    # 从redis中取出的是bytes类型，需要解码
+    real_image_code = real_image_code.decode()
     if real_image_code.lower() != image_code.lower():
         return jsonify(errno=RET.DATAERR, errmsg='图片验证码错误')
 
@@ -79,7 +80,7 @@ def get_sms_code(mobile):
         current_app.logger.error(e)
     else:
         if send_flag:
-            # 表示在60秒之前有过发送的记录
+            # 表示在60秒之内有过发送的记录
             return jsonify(errno=RET.REQERR, errmssg='请求过于频繁，请60秒后重试')
 
     # 判断手机号是否存在
@@ -104,13 +105,13 @@ def get_sms_code(mobile):
         return jsonify(errno=RET.DBERR, errmsg='保存短信验证码异常')
 
     # 发送短信
-    try:
-        ccp = CCP()
-        result = ccp.send_template_sms(mobile, [sms_code,int(constants.SMS_CODE_REDIS_EXPIRES/60)],1)
-    except Exception as e:
-        current_app.logger.error(e)
-        return jsonify(errno=RET.THIRDERR, errmsg='发送异常')
-
+    # try:
+    #     ccp = CCP()
+    #     result = ccp.send_template_sms(mobile, [sms_code,int(constants.SMS_CODE_REDIS_EXPIRES/60)],1)
+    # except Exception as e:
+    #     current_app.logger.error(e)
+    #     return jsonify(errno=RET.THIRDERR, errmsg='发送异常')
+    result = 1
     # 返回值
     if result == 0:
         # 发送成功

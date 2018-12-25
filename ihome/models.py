@@ -1,5 +1,6 @@
 from datetime import datetime
 from ihome import db
+from werkzeug.security import generate_password_hash
 
 
 class BaseModel:
@@ -23,6 +24,14 @@ class User(BaseModel, db.Model):
     houses = db.relationship('House', backref='user')  # 用户发布的房屋
     orders = db.relationship('Order', backref='user')  # 用户下的订单
 
+    @property
+    def password(self):
+        raise AttributeError('这个属性只能设置不能读取')
+
+    @password.setter
+    def password(self, value):
+        self.password_hash = generate_password_hash(value)
+
 
 class Area(BaseModel, db.Model):
     """城区"""
@@ -42,7 +51,7 @@ house_facility = db.Table(
 )
 
 
-class Hourse(BaseModel, db.Model):
+class House(BaseModel, db.Model):
     """房屋信息"""
 
     __tablename__ = "ih_house_info"
