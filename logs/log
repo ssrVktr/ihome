@@ -113,3 +113,47 @@ WARNING _internal.py:88  * Debugger is active!
 2018-12-21 18:10:39,623 ERROR verify_code.py:55 'bytes' object has no attribute 'encode'
 2018-12-21 18:11:24,768 WARNING _internal.py:88  * Debugger is active!
 2018-12-21 18:11:29,468 ERROR verify_code.py:89 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-24 09:06:43,477 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 09:09:39,220 ERROR verify_code.py:89 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-24 09:32:53,689 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 09:33:05,264 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 10:14:17,189 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 10:43:03,546 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 10:47:19,222 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 10:49:35,679 ERROR verify_code.py:56 'NoneType' object has no attribute 'decode'
+2018-12-24 10:51:15,190 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 10:51:25,542 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 10:55:14,205 WARNING _internal.py:88  * Debugger is active!
+2018-12-24 11:02:16,241 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:13:03,603 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:14:43,186 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:14:57,421 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:15:25,880 ERROR verify_code.py:90 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:17:33,523 ERROR verify_code.py:90 One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper|User|ih_user_profile'. Original exception was: When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:19:32,563 ERROR verify_code.py:90 One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper|User|ih_user_profile'. Original exception was: When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:22:26,527 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:22:46,331 ERROR verify_code.py:90 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:25:22,186 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:25:35,540 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:25:44,623 ERROR verify_code.py:90 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:26:45,091 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:26:57,679 ERROR verify_code.py:90 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:28:02,534 ERROR verify_code.py:90 One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper|User|ih_user_profile'. Original exception was: When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:28:56,084 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:28:59,117 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:29:18,865 ERROR verify_code.py:90 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:31:32,303 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:31:37,970 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:32:03,002 ERROR verify_code.py:90 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:40:49,828 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:40:53,573 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:41:10,389 ERROR verify_code.py:90 When initializing mapper Mapper|User|ih_user_profile, expression 'House' failed to locate a name ("name 'House' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.User'> class after both dependent classes have been defined.
+2018-12-25 10:52:57,152 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:53:51,789 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 10:56:06,574 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 11:08:14,483 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 11:08:39,885 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 11:10:29,754 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 11:11:07,384 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 11:12:58,420 WARNING _internal.py:88  * Debugger is active!
+2018-12-25 11:14:43,666 WARNING _internal.py:88  * Debugger is active!

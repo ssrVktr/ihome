@@ -27,4 +27,3 @@ def get_html(html_file_name):
     resp.set_cookie('csrf_token', csrf_token)
 
     return resp
-
