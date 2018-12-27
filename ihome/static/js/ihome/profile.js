@@ -63,7 +63,7 @@ $(function () {
            type: 'post',
            dataType: 'json',
            headers: {
-               'X-CSRFToken': getCookie('csrf-token')
+               'X-CSRFToken': getCookie('csrf_token')
            },
            success: function (data) {
                if (data.errno == '0'){

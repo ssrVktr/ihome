@@ -161,7 +161,7 @@ WARNING _internal.py:88  * Debugger is active!
 2018-12-26 10:22:47,008 WARNING _internal.py:88  * Debugger is active!
 2018-12-26 10:23:05,464 WARNING _internal.py:88  * Debugger is active!
 2018-12-26 10:23:15,028 WARNING _internal.py:88  * Debugger is active!
-2018-12-26 10:25:46,270 ERROR passport.py:122 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£)") (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-12-26 10:25:46,270 ERROR passport.py:122 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½)") (Background on this error at: http://sqlalche.me/e/e3q8)
 2018-12-27 08:53:37,022 WARNING _internal.py:88  * Debugger is active!
 2018-12-27 10:00:10,840 WARNING _internal.py:88  * Debugger is active!
 2018-12-27 10:39:32,765 WARNING _internal.py:88  * Debugger is active!
@@ -180,3 +180,25 @@ WARNING _internal.py:88  * Debugger is active!
 2018-12-27 12:43:45,825 WARNING _internal.py:88  * Debugger is active!
 2018-12-27 12:47:37,029 WARNING _internal.py:88  * Debugger is active!
 2018-12-27 12:47:43,074 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:02:15,460 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:06:09,730 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:09:22,597 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:10:55,732 ERROR profile.py:90 Entity '<class 'ihome.models.User'>' has no property 'avatar'
+2018-12-27 16:12:43,354 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:12:47,388 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:22:33,254 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:37:50,656 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:41:46,145 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:41:55,343 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:42:07,979 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:42:57,629 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:43:01,057 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:43:47,176 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:44:20,643 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:50:36,577 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:50:46,934 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:51:14,664 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:52:43,263 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:53:01,657 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:53:53,502 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 16:53:58,115 WARNING _internal.py:88  * Debugger is active!

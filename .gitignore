@@ -110,5 +110,6 @@ __pycache__/
 
 config.py
 sms.py
-log
+logs/
 image_storage.py
+.qiniu_pythonsdk_hostscache.json
