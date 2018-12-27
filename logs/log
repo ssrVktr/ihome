@@ -162,3 +162,21 @@ WARNING _internal.py:88  * Debugger is active!
 2018-12-26 10:23:05,464 WARNING _internal.py:88  * Debugger is active!
 2018-12-26 10:23:15,028 WARNING _internal.py:88  * Debugger is active!
 2018-12-26 10:25:46,270 ERROR passport.py:122 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)") (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-12-27 08:53:37,022 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 10:00:10,840 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 10:39:32,765 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 10:40:39,583 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 10:40:44,941 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 11:01:30,705 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 11:09:41,437 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 11:10:12,699 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 11:15:36,724 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:21:52,307 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:23:49,279 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:38:19,033 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:40:00,615 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:40:39,420 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:43:13,196 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:43:45,825 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:47:37,029 WARNING _internal.py:88  * Debugger is active!
+2018-12-27 12:47:43,074 WARNING _internal.py:88  * Debugger is active!
