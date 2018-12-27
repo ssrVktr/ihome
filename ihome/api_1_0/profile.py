@@ -26,10 +26,10 @@ def get_user_avatar():
         user = User.query.filter_by(id=user_id).first()
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg='用户头像查询失败')
+        return jsonify(errno=RET.DBERR, errmsg='用户查询失败')
 
     # 获取头像地址
-    avatar_url = user.avatar_url
+    avatar_url = constants.QINIU_URL_DOMAIN + user.avatar_url
     return jsonify(errno=RET.OK, errmsg='成功', data={'avatar_url': avatar_url})
 
 
@@ -41,18 +41,8 @@ def get_user_name():
     :return: 用户昵称
     """
 
-    # 在登录装饰器中已设置g对象的user_id属性
-    user_id = g.user_id
-
-    # 获取用户信息
-    try:
-        user = User.query.filter_by(id=user_id).first()
-    except Exception as e:
-        current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg='用户昵称查询失败')
-
-    # 获取用户昵称
-    user_name = user.name
+    # 从session中获取用户名
+    user_name = session.get('name')
     return jsonify(errno=RET.OK, errmsg='成功', data={'user_name': user_name})
 
 
@@ -84,7 +74,7 @@ def set_user_avatar():
 
     # 保存文件名（图片地址）到数据库
     try:
-        User.query.filter_by(id=user_id).update({'avatar': file_name})
+        User.query.filter_by(id=user_id).update({'avatar_url': file_name})
         db.session.commit()
     except Exception as e:
         current_app.logger.error(e)

@@ -88,3 +88,8 @@ body {
     line-height: 25px;
     color: #666;
 }
+
+/* 自定义 */
+.modify {
+    color: #ff6666 !important;
+}
