@@ -60,7 +60,7 @@ function goToSearchPage(th) {
 $(document).ready(function(){
     $.get('api/v1.0/sessions', function (data) {
        if (data.errno == '0'){
-           $('#user-name').html(data.data.mobile);
+           $('#user-name').html(data.data.name);
            $('#user-info').show();
        } else {
            $("#register-login").show();
