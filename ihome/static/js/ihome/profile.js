@@ -13,46 +13,27 @@ function getCookie(name) {
 
 
 $(function () {
-    // 获取用户头像
+    // 获取用户信息
     $.ajax({
-        url: 'api/v1.0/users/avatar',
+        url: 'api/v1.0/user',
         type: 'get',
-        dataType: 'json',
-        success: function (data) {
-            if(data.errno == '0'){
-                var avatarUrl = data.data.avatar_url
-                $('#user-avatar').prop('src', avatarUrl)
-            }
-            else if(data.errno == '4101'){
-                alert(data.errmsg);
-                location.href = 'login.html'
-            }
-            else {
-                alert(data.errmsg)
-            }
+        dataType: 'json'
+    })
+    .done(function (data) {
+        if(data.errno == '0'){
+            var avatarUrl = data.data.avatar;
+            var userName = data.data.name;
+            $('#user-avatar').prop('src', avatarUrl);
+            $('#user-name').val(userName)
         }
-    });
-
-    // 获取用户昵称
-    $.ajax({
-        url: 'api/v1.0/users/user_name',
-        type: 'get',
-        dataType: 'json',
-        success: function (data) {
-            if (data.errno == '0'){
-                //查询成功
-                var userName = data.data.user_name;
-                $('#user-name').val(userName)
-            }
-            else if(data.errno == '4101'){
-                alert(data.errmsg);
-                location.href = 'login.html'
-            }
-            else {
-                alert(data.errmsg)
-            }
-
+        else if(data.errno == '4101'){
+            alert(data.errmsg);
+            location.href = 'login.html'
         }
+        else {
+            alert(data.errmsg)
+        }
+
     });
 
     // 更新用户头像
@@ -89,8 +70,8 @@ $(function () {
         };
         var req_json = JSON.stringify(req_data);
         $.ajax({
-            url: 'api/v1.0/users/user_name',
-            type: 'post',
+            url: 'api/v1.0/users/name',
+            type: 'put',
             data: req_json,
             contentType: 'application/json',
             dataType: 'json',
