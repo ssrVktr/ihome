@@ -1,6 +1,7 @@
 import re
-from . import api
+
 from flask import request, jsonify, current_app, session
+from . import api
 from ihome.utils.response_code import RET
 from ihome import redis_store, db, constants
 from ihome.models import User
@@ -149,7 +150,7 @@ def check_login():
     name = session.get('name')
     # 如果session中数据name名字存在，则表示用户已登录，否则未登录
     if name:
-        return jsonify(errno=RET.OK, errmsg='ture', data={'name':name})
+        return jsonify(errno=RET.OK, errmsg='ture', data={'name': name})
     else:
         return jsonify(errno=RET.SESSIONERR, errmsg='false')
 
@@ -160,6 +161,3 @@ def logout():
     # 清除session数据
     session.clear()
     return jsonify(errno=RET.OK, errmsg='ok')
-
-
-
