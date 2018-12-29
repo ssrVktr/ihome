@@ -1,7 +1,8 @@
 from datetime import datetime
+
 from ihome import db
-from werkzeug.security import generate_password_hash, check_password_hash
 from ihome import constants
+from werkzeug.security import generate_password_hash, check_password_hash
 
 
 class BaseModel:
@@ -34,7 +35,7 @@ class User(BaseModel, db.Model):
         self.password_hash = generate_password_hash(value)
 
     def check_password(self, password):
-        return check_password_hash(self.password_hash,password)
+        return check_password_hash(self.password_hash, password)
 
     def to_dict(self):
         """

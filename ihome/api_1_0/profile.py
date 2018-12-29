@@ -1,7 +1,7 @@
 import re
+
 from flask import g, current_app, jsonify, request, session
 from sqlalchemy.exc import IntegrityError
-
 from . import api
 from ihome.utils.commons import login_required
 from ihome.utils.response_code import RET

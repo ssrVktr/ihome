@@ -1,11 +1,11 @@
 import random
+
+from flask import current_app, make_response, jsonify, request
 from . import api
 from ihome.utils.captcha.captcha import captcha
-from ihome import redis_store, constants, db
-from flask import current_app, make_response, jsonify, request
+from ihome import redis_store, constants
 from ihome.utils.response_code import RET
 from ihome.models import User
-from ihome.libs.yuntongxun.sms import CCP
 
 
 # GET 127.0.0.1/api/v1.0/image_codes/<image_code_id>
@@ -118,14 +118,3 @@ def get_sms_code(mobile):
         return jsonify(errno=RET.OK, errmsg='发送成功')
     else:
         return jsonify(errno=RET.THIRDERR, errmsg='发送失败')
-
-
-
-
-
-
-
-
-
-
-

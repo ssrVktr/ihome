@@ -53,7 +53,7 @@ def create_app(config_name):
     Session(app)
 
     # 为flask补充csrf防护
-    CSRFProtect(app)
+    # CSRFProtect(app)
 
     # 添加自定义正则匹配路由
     app.url_map.converters['re'] = ReConverter

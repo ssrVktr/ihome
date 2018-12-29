@@ -1,5 +1,5 @@
-from flask import Blueprint, current_app, make_response
 from flask_wtf import csrf
+from flask import Blueprint, current_app, make_response
 
 
 # 提供静态文件的蓝图
