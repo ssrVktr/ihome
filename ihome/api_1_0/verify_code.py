@@ -6,6 +6,7 @@ from ihome.utils.captcha.captcha import captcha
 from ihome import redis_store, constants
 from ihome.utils.response_code import RET
 from ihome.models import User
+from ihome.tasks.sms.tasks import send_sms
 
 
 # GET 127.0.0.1/api/v1.0/image_codes/<image_code_id>
@@ -105,16 +106,10 @@ def get_sms_code(mobile):
         return jsonify(errno=RET.DBERR, errmsg='保存短信验证码异常')
 
     # 发送短信
-    # try:
-    #     ccp = CCP()
-    #     result = ccp.send_template_sms(mobile, [sms_code,int(constants.SMS_CODE_REDIS_EXPIRES/60)],1)
-    # except Exception as e:
-    #     current_app.logger.error(e)
-    #     return jsonify(errno=RET.THIRDERR, errmsg='发送异常')
-    result = 1
-    # 返回值
-    if result == 0:
-        # 发送成功
-        return jsonify(errno=RET.OK, errmsg='发送成功')
-    else:
-        return jsonify(errno=RET.THIRDERR, errmsg='发送失败')
+    result_obj = send_sms.delay(mobile, [sms_code, int(constants.SMS_CODE_REDIS_EXPIRES/60)], 1)
+    print(result_obj.id)
+    # 通过异步任务对象的get方法获取异步任务的结果, 默认get方法是阻塞的
+    # ret = result_obj.get()
+    # print('ret=%s' % ret)
+
+    return jsonify(errno=RET.OK, errmsg='发送成功')
