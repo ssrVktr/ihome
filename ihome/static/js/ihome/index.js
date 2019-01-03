@@ -57,28 +57,62 @@ function goToSearchPage(th) {
     location.href = url;
 }
 
-$(document).ready(function(){
-    $.get('api/v1.0/sessions', function (data) {
-       if (data.errno == '0'){
-           $('#user-name').html(data.data.name);
+$(function(){
+    // 检查用户登录状态
+    $.ajax({
+        url: '/api/v1.0/session',
+        type: 'get',
+        dataType: 'json'
+    }).done(function (resp) {
+        if (resp.errno == '0'){
+           $('#user-name').html(resp.data.name);
            $('#user-info').show();
        } else {
            $("#register-login").show();
        }
     });
-    var mySwiper = new Swiper ('.swiper-container', {
-        loop: true,
-        autoplay: 2000,
-        autoplayDisableOnInteraction: false,
-        pagination: '.swiper-pagination',
-        paginationClickable: true
-    }); 
-    $(".area-list a").click(function(e){
-        $("#area-btn").html($(this).html());
-        $(".search-btn").attr("area-id", $(this).attr("area-id"));
-        $(".search-btn").attr("area-name", $(this).html());
-        $("#area-modal").modal("hide");
+
+    // 获取首页轮播图
+    $.ajax({
+        url: '/api/v1.0/houses/index',
+        type: 'get',
+        dataType: 'json'
+    }).done(function (resp) {
+        if (resp.errno == '0'){
+            var html = template('swiper-houses-tmpl', {houses: resp.data});
+            $('.swiper-wrapper').html(html);
+
+            // 设置幻灯片对象，开启幻灯片滚动
+            var mySwiper = new Swiper ('.swiper-container', {
+            loop: true,
+            autoplay: 2000,
+            autoplayDisableOnInteraction: false,
+            pagination: '.swiper-pagination',
+            paginationClickable: true
+            });
+        }
     });
+
+    // 获取城区信息
+    $.ajax({
+        url: '/api/v1.0/areas',
+        type: 'get',
+        dataType: 'json'
+    }).done(function (resp) {
+        if (resp.errno == '0'){
+            var html = template('area-list-tmpl', {areas: resp.data});
+            $('.area-list').html(html);
+
+            $(".area-list a").click(function(e){
+                $("#area-btn").html($(this).html());
+                $(".search-btn").attr("area-id", $(this).attr("area-id"));
+                $(".search-btn").attr("area-name", $(this).html());
+                $("#area-modal").modal("hide");
+            });
+        }
+        
+    });
+
     $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
     $(window).on('resize', centerModals);               //当窗口大小变化的时候
     $("#start-date").datepicker({
@@ -91,4 +125,4 @@ $(document).ready(function(){
         var date = $(this).datepicker("getFormattedDate");
         $("#start-date-input").val(date);
     });
-})
+});

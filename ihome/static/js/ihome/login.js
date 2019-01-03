@@ -12,8 +12,8 @@ $(document).ready(function() {
     });
     $(".form-login").submit(function(e){
         e.preventDefault();
-        mobile = $("#mobile").val();
-        passwd = $("#password").val();
+        var mobile = $("#mobile").val();
+        var passwd = $("#password").val();
         if (!mobile) {
             $("#mobile-err span").html("请填写正确的手机号！");
             $("#mobile-err").show();
@@ -32,7 +32,7 @@ $(document).ready(function() {
         // 将data转为json字符串
         var jsonData = JSON.stringify(data);
         $.ajax({
-            url: 'api/v1.0/sessions',
+            url: 'api/v1.0/session',
             type: 'post',
             data: jsonData,
             contentType: 'application/json',

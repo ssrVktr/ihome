@@ -6,7 +6,7 @@ function getCookie(name) {
 // 退出登录
 function logout() {
     $.ajax({
-        url: '/api/v1.0/sessions',
+        url: '/api/v1.0/session',
         type: 'delete',
         headers: {
             'X-CSRFToken': getCookie('csrf_token')

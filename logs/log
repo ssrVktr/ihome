@@ -318,3 +318,123 @@ WARNING _internal.py:88  * Debugger is active!
 2019-01-02 17:08:04,544 WARNING _internal.py:88  * Debugger is active!
 2019-01-02 17:08:27,086 WARNING _internal.py:88  * Debugger is active!
 2019-01-02 17:08:38,895 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 08:58:34,197 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 09:00:13,083 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 09:27:37,729 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 10:33:25,081 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 10:43:00,645 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 10:45:33,493 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 10:48:59,888 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 10:54:08,299 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 10:59:05,474 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 11:27:07,772 INFO houses.py:25 hit redis area_info
+2019-01-03 13:54:23,820 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 13:55:10,100 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 14:32:32,997 INFO houses.py:25 hit redis area_info
+2019-01-03 14:33:48,745 INFO houses.py:246 hit house index info redis
+2019-01-03 14:33:48,748 INFO houses.py:25 hit redis area_info
+2019-01-03 14:33:57,889 INFO houses.py:246 hit house index info redis
+2019-01-03 14:33:57,892 INFO houses.py:25 hit redis area_info
+2019-01-03 14:34:03,025 INFO houses.py:246 hit house index info redis
+2019-01-03 14:34:03,028 INFO houses.py:25 hit redis area_info
+2019-01-03 14:34:58,454 INFO houses.py:246 hit house index info redis
+2019-01-03 14:34:58,646 INFO houses.py:25 hit redis area_info
+2019-01-03 14:35:05,021 INFO houses.py:246 hit house index info redis
+2019-01-03 14:35:05,245 INFO houses.py:25 hit redis area_info
+2019-01-03 14:35:49,140 INFO houses.py:246 hit house index info redis
+2019-01-03 14:35:49,312 INFO houses.py:25 hit redis area_info
+2019-01-03 14:38:59,959 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 14:39:49,192 INFO houses.py:25 hit redis area_info
+2019-01-03 14:40:15,720 INFO houses.py:246 hit house index info redis
+2019-01-03 14:40:15,941 INFO houses.py:25 hit redis area_info
+2019-01-03 14:40:19,367 INFO houses.py:246 hit house index info redis
+2019-01-03 14:40:19,369 INFO houses.py:25 hit redis area_info
+2019-01-03 14:46:58,580 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 14:47:05,494 INFO houses.py:247 hit house index info redis
+2019-01-03 14:47:05,692 INFO houses.py:25 hit redis area_info
+2019-01-03 14:47:09,242 INFO houses.py:247 hit house index info redis
+2019-01-03 14:47:09,245 INFO houses.py:25 hit redis area_info
+2019-01-03 14:49:50,477 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 14:49:53,312 INFO houses.py:248 hit house index info redis
+2019-01-03 14:49:53,491 INFO houses.py:25 hit redis area_info
+2019-01-03 14:53:47,058 INFO houses.py:248 hit house index info redis
+2019-01-03 14:53:47,163 INFO houses.py:25 hit redis area_info
+2019-01-03 14:59:20,295 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 14:59:22,576 INFO houses.py:248 hit house index info redis
+2019-01-03 14:59:22,846 INFO houses.py:25 hit redis area_info
+2019-01-03 14:59:29,841 INFO houses.py:248 hit house index info redis
+2019-01-03 14:59:29,863 INFO houses.py:25 hit redis area_info
+2019-01-03 15:04:33,333 INFO houses.py:248 hit house index info redis
+2019-01-03 15:04:33,599 INFO houses.py:25 hit redis area_info
+2019-01-03 15:04:39,560 INFO houses.py:248 hit house index info redis
+2019-01-03 15:04:39,570 INFO houses.py:25 hit redis area_info
+2019-01-03 15:05:48,004 INFO houses.py:248 hit house index info redis
+2019-01-03 15:05:48,310 INFO houses.py:25 hit redis area_info
+2019-01-03 15:09:39,090 INFO houses.py:248 hit house index info redis
+2019-01-03 15:09:39,285 INFO houses.py:25 hit redis area_info
+2019-01-03 15:10:44,281 INFO houses.py:248 hit house index info redis
+2019-01-03 15:10:44,381 INFO houses.py:25 hit redis area_info
+2019-01-03 15:12:39,375 INFO houses.py:248 hit house index info redis
+2019-01-03 15:12:39,385 INFO houses.py:25 hit redis area_info
+2019-01-03 15:13:28,498 INFO houses.py:248 hit house index info redis
+2019-01-03 15:13:28,512 INFO houses.py:25 hit redis area_info
+2019-01-03 15:15:20,821 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 15:15:38,897 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 15:16:03,936 INFO houses.py:248 hit house index info redis
+2019-01-03 15:16:04,130 INFO houses.py:25 hit redis area_info
+2019-01-03 15:16:17,894 INFO houses.py:248 hit house index info redis
+2019-01-03 15:16:17,896 INFO houses.py:25 hit redis area_info
+2019-01-03 15:16:22,876 INFO houses.py:248 hit house index info redis
+2019-01-03 15:16:23,119 INFO houses.py:25 hit redis area_info
+2019-01-03 15:16:53,400 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 15:16:56,327 INFO houses.py:248 hit house index info redis
+2019-01-03 15:16:56,529 INFO houses.py:25 hit redis area_info
+2019-01-03 15:17:22,446 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 15:18:01,979 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 15:18:15,355 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 15:18:22,378 INFO houses.py:248 hit house index info redis
+2019-01-03 15:18:22,387 INFO houses.py:25 hit redis area_info
+2019-01-03 15:18:34,397 INFO houses.py:248 hit house index info redis
+2019-01-03 15:18:34,399 INFO houses.py:25 hit redis area_info
+2019-01-03 15:19:51,731 INFO houses.py:248 hit house index info redis
+2019-01-03 15:19:51,893 INFO houses.py:25 hit redis area_info
+2019-01-03 15:20:42,926 INFO houses.py:25 hit redis area_info
+2019-01-03 15:22:02,354 INFO houses.py:248 hit house index info redis
+2019-01-03 15:22:02,357 INFO houses.py:25 hit redis area_info
+2019-01-03 15:36:58,107 INFO houses.py:302 hit house info redis
+2019-01-03 15:37:06,853 INFO houses.py:302 hit house info redis
+2019-01-03 15:37:49,320 WARNING _internal.py:88  * Debugger is active!
+2019-01-03 15:37:50,611 INFO houses.py:304 hit house info redis
+2019-01-03 15:38:35,779 INFO houses.py:304 hit house info redis
+2019-01-03 15:38:55,889 INFO houses.py:304 hit house info redis
+2019-01-03 15:53:28,972 INFO houses.py:304 hit house info redis
+2019-01-03 15:53:52,588 INFO houses.py:304 hit house info redis
+2019-01-03 15:55:09,710 INFO houses.py:304 hit house info redis
+2019-01-03 15:55:14,561 INFO houses.py:304 hit house info redis
+2019-01-03 15:58:50,106 INFO houses.py:304 hit house info redis
+2019-01-03 16:00:32,773 INFO houses.py:304 hit house info redis
+2019-01-03 16:01:03,708 INFO houses.py:248 hit house index info redis
+2019-01-03 16:01:10,027 INFO houses.py:304 hit house info redis
+2019-01-03 16:05:34,891 INFO houses.py:304 hit house info redis
+2019-01-03 16:06:31,668 INFO houses.py:304 hit house info redis
+2019-01-03 16:06:35,778 INFO houses.py:304 hit house info redis
+2019-01-03 16:06:51,559 INFO houses.py:248 hit house index info redis
+2019-01-03 16:06:51,563 INFO houses.py:25 hit redis area_info
+2019-01-03 16:06:54,778 INFO houses.py:248 hit house index info redis
+2019-01-03 16:06:54,782 INFO houses.py:25 hit redis area_info
+2019-01-03 16:07:02,943 INFO houses.py:248 hit house index info redis
+2019-01-03 16:07:02,946 INFO houses.py:25 hit redis area_info
+2019-01-03 16:07:12,654 INFO houses.py:304 hit house info redis
+2019-01-03 16:08:15,092 INFO houses.py:248 hit house index info redis
+2019-01-03 16:08:15,095 INFO houses.py:25 hit redis area_info
+2019-01-03 16:08:22,644 INFO houses.py:304 hit house info redis
+2019-01-03 16:08:39,615 INFO houses.py:248 hit house index info redis
+2019-01-03 16:08:39,619 INFO houses.py:25 hit redis area_info
+2019-01-03 16:08:42,767 INFO houses.py:248 hit house index info redis
+2019-01-03 16:08:42,768 INFO houses.py:25 hit redis area_info
+2019-01-03 16:08:47,412 INFO houses.py:248 hit house index info redis
+2019-01-03 16:08:47,416 INFO houses.py:25 hit redis area_info
+2019-01-03 16:08:53,136 INFO houses.py:304 hit house info redis
+2019-01-03 16:09:01,468 INFO houses.py:304 hit house info redis
+2019-01-03 16:09:06,764 INFO houses.py:248 hit house index info redis
+2019-01-03 16:09:06,768 INFO houses.py:25 hit redis area_info
