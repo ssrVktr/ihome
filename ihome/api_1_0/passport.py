@@ -8,7 +8,7 @@ from ihome.models import User
 from sqlalchemy.exc import IntegrityError
 
 
-@api.route('users', methods=['post'])
+@api.route('/users', methods=['POST'])
 def register():
     """
     注册
@@ -85,7 +85,7 @@ def register():
     return jsonify(errno=RET.OK, errmsg='注册成功')
 
 
-@api.route('sessions', methods=['POST'])
+@api.route('/session', methods=['POST'])
 def login():
     """
     用户登录
@@ -143,7 +143,7 @@ def login():
     return jsonify(errno=RET.OK, errmsg='登陆成功')
 
 
-@api.route('sessions', methods=['GET'])
+@api.route('/session', methods=['GET'])
 def check_login():
     """检查登陆状态"""
     # 尝试从session中获取用户的名字
@@ -155,7 +155,7 @@ def check_login():
         return jsonify(errno=RET.SESSIONERR, errmsg='false')
 
 
-@api.route('sessions', methods=['DELETE'])
+@api.route('/session', methods=['DELETE'])
 def logout():
     """登出"""
     # 清除session数据

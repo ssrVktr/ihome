@@ -33,7 +33,7 @@ def get_image_code(image_code_id):
 
 
 # GET /api/v1.0/sms_codes/<mobile>?image_code=xxxx&image_code_id=xxxx
-@api.route("sms_codes/<re(r'1[34578]\d{9}'):mobile>")
+@api.route("/sms_codes/<re(r'1[34578]\d{9}'):mobile>")
 def get_sms_code(mobile):
     """
     获取短信验证码

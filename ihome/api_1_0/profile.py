@@ -10,7 +10,7 @@ from ihome.models import User
 from ihome import db, constants
 
 
-@api.route('user', methods=['GET'])
+@api.route('/user', methods=['GET'])
 @login_required
 def get_user_profile():
     """
@@ -32,7 +32,7 @@ def get_user_profile():
     return jsonify(errno=RET.OK, errmsg='ok', data=user.to_dict())
 
 
-@api.route('users/avatar', methods=['POST'])
+@api.route('/users/avatar', methods=['POST'])
 @login_required
 def set_user_avatar():
     """
@@ -69,7 +69,7 @@ def set_user_avatar():
     return jsonify(errno=RET.OK, errmsg='保存成功', data={'avatar_url': avatar_url})
 
 
-@api.route('users/name', methods=['PUT'])
+@api.route('/users/name', methods=['PUT'])
 @login_required
 def set_user_name():
     """
@@ -116,7 +116,7 @@ def set_user_name():
     return jsonify(errno=RET.OK, errmsg='保存成功', data={'new_user_name': user.name})
 
 
-@api.route('users/auth', methods=['GET'])
+@api.route('/users/auth', methods=['GET'])
 @login_required
 def get_user_auth():
     """
@@ -138,7 +138,7 @@ def get_user_auth():
     return jsonify(errno=RET.OK, errmsg='ok', data=user.auth_to_dict())
 
 
-@api.route('users/auth', methods=['POST'])
+@api.route('/users/auth', methods=['POST'])
 @login_required
 def set_user_auth():
     """
