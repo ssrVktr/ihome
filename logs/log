@@ -438,3 +438,125 @@ WARNING _internal.py:88  * Debugger is active!
 2019-01-03 16:09:01,468 INFO houses.py:304 hit house info redis
 2019-01-03 16:09:06,764 INFO houses.py:248 hit house index info redis
 2019-01-03 16:09:06,768 INFO houses.py:25 hit redis area_info
+2019-01-04 09:02:52,989 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 09:03:34,284 INFO houses.py:248 hit house index info redis
+2019-01-04 09:03:34,289 INFO houses.py:25 hit redis area_info
+2019-01-04 09:03:37,921 INFO houses.py:248 hit house index info redis
+2019-01-04 09:03:37,924 INFO houses.py:25 hit redis area_info
+2019-01-04 09:03:44,657 INFO houses.py:248 hit house index info redis
+2019-01-04 09:03:44,663 INFO houses.py:25 hit redis area_info
+2019-01-04 09:09:12,586 INFO houses.py:248 hit house index info redis
+2019-01-04 09:09:12,590 INFO houses.py:25 hit redis area_info
+2019-01-04 09:10:47,189 INFO houses.py:248 hit house index info redis
+2019-01-04 09:10:47,193 INFO houses.py:25 hit redis area_info
+2019-01-04 09:10:50,683 INFO houses.py:248 hit house index info redis
+2019-01-04 09:10:50,687 INFO houses.py:25 hit redis area_info
+2019-01-04 09:10:55,616 INFO houses.py:248 hit house index info redis
+2019-01-04 09:10:55,624 INFO houses.py:25 hit redis area_info
+2019-01-04 09:11:01,157 INFO houses.py:304 hit house info redis
+2019-01-04 09:11:29,477 INFO houses.py:25 hit redis area_info
+2019-01-04 09:11:58,423 INFO houses.py:304 hit house info redis
+2019-01-04 09:12:01,448 INFO houses.py:304 hit house info redis
+2019-01-04 09:12:50,599 INFO houses.py:248 hit house index info redis
+2019-01-04 09:12:50,603 INFO houses.py:25 hit redis area_info
+2019-01-04 09:13:14,374 INFO houses.py:248 hit house index info redis
+2019-01-04 09:13:14,375 INFO houses.py:25 hit redis area_info
+2019-01-04 09:18:20,777 INFO houses.py:248 hit house index info redis
+2019-01-04 09:18:20,782 INFO houses.py:25 hit redis area_info
+2019-01-04 09:18:44,529 INFO houses.py:248 hit house index info redis
+2019-01-04 09:18:44,533 INFO houses.py:25 hit redis area_info
+2019-01-04 10:46:28,501 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 10:49:05,916 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 10:50:07,536 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 10:50:09,101 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 11:01:29,282 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 11:02:35,532 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 11:02:55,758 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 11:03:03,693 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 13:53:19,841 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 13:54:11,866 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 13:54:54,616 INFO houses.py:249 hit house index info redis
+2019-01-04 13:54:54,796 INFO houses.py:26 hit redis area_info
+2019-01-04 14:09:57,998 INFO houses.py:26 hit redis area_info
+2019-01-04 14:10:03,276 INFO houses.py:249 hit house index info redis
+2019-01-04 14:10:03,476 INFO houses.py:26 hit redis area_info
+2019-01-04 14:10:08,056 INFO houses.py:26 hit redis area_info
+2019-01-04 14:10:57,337 INFO houses.py:26 hit redis area_info
+2019-01-04 14:11:34,816 INFO houses.py:26 hit redis area_info
+2019-01-04 14:11:38,758 INFO houses.py:305 hit house info redis
+2019-01-04 14:11:43,650 INFO houses.py:26 hit redis area_info
+2019-01-04 14:13:58,932 INFO houses.py:249 hit house index info redis
+2019-01-04 14:13:59,079 INFO houses.py:26 hit redis area_info
+2019-01-04 14:14:23,230 INFO houses.py:26 hit redis area_info
+2019-01-04 14:14:28,268 INFO houses.py:249 hit house index info redis
+2019-01-04 14:14:28,273 INFO houses.py:26 hit redis area_info
+2019-01-04 14:14:43,915 INFO houses.py:26 hit redis area_info
+2019-01-04 14:18:04,195 INFO houses.py:305 hit house info redis
+2019-01-04 14:18:08,508 INFO houses.py:249 hit house index info redis
+2019-01-04 14:18:08,550 INFO houses.py:26 hit redis area_info
+2019-01-04 14:18:13,900 INFO houses.py:249 hit house index info redis
+2019-01-04 14:18:13,903 INFO houses.py:26 hit redis area_info
+2019-01-04 14:18:23,599 INFO houses.py:249 hit house index info redis
+2019-01-04 14:18:23,606 INFO houses.py:26 hit redis area_info
+2019-01-04 14:23:11,319 INFO houses.py:249 hit house index info redis
+2019-01-04 14:23:11,323 INFO houses.py:26 hit redis area_info
+2019-01-04 14:23:24,001 INFO houses.py:249 hit house index info redis
+2019-01-04 14:23:24,005 INFO houses.py:26 hit redis area_info
+2019-01-04 14:23:27,208 INFO houses.py:26 hit redis area_info
+2019-01-04 14:23:35,140 INFO houses.py:305 hit house info redis
+2019-01-04 14:23:58,671 INFO houses.py:26 hit redis area_info
+2019-01-04 14:24:00,971 INFO houses.py:305 hit house info redis
+2019-01-04 14:24:14,799 INFO houses.py:249 hit house index info redis
+2019-01-04 14:24:14,802 INFO houses.py:26 hit redis area_info
+2019-01-04 14:25:27,922 INFO houses.py:26 hit redis area_info
+2019-01-04 14:25:46,227 INFO houses.py:305 hit house info redis
+2019-01-04 14:25:52,381 INFO houses.py:249 hit house index info redis
+2019-01-04 14:25:52,617 INFO houses.py:26 hit redis area_info
+2019-01-04 14:26:17,840 ERROR profile.py:169 (mysql.connector.errors.DataError) 1406 (22001): Data too long for column 'id_card' at row 1 [SQL: 'UPDATE ih_user_profile SET update_time=%(update_time)s, real_name=%(real_name)s, id_card=%(id_card)s WHERE ih_user_profile.id = %(id_1)s AND ih_user_profile.real_name IS NULL AND ih_user_profile.id_card IS NULL'] [parameters: {'update_time': datetime.datetime(2019, 1, 4, 14, 26, 17, 815482), 'real_name': 'µÀÃ÷ËÂÇçÏè', 'id_card': '412311111111111111111', 'id_1': 2}] (Background on this error at: http://sqlalche.me/e/9h9h)
+2019-01-04 14:26:41,888 INFO houses.py:249 hit house index info redis
+2019-01-04 14:26:42,097 INFO houses.py:26 hit redis area_info
+2019-01-04 14:26:49,206 INFO houses.py:26 hit redis area_info
+2019-01-04 14:29:26,713 INFO houses.py:249 hit house index info redis
+2019-01-04 14:29:26,716 INFO houses.py:26 hit redis area_info
+2019-01-04 14:29:29,054 INFO houses.py:26 hit redis area_info
+2019-01-04 14:29:53,626 INFO houses.py:249 hit house index info redis
+2019-01-04 14:29:53,629 INFO houses.py:26 hit redis area_info
+2019-01-04 14:29:59,875 INFO houses.py:26 hit redis area_info
+2019-01-04 14:30:30,783 INFO houses.py:26 hit redis area_info
+2019-01-04 14:30:34,727 INFO houses.py:249 hit house index info redis
+2019-01-04 14:30:34,730 INFO houses.py:26 hit redis area_info
+2019-01-04 14:30:37,187 INFO houses.py:26 hit redis area_info
+2019-01-04 14:30:47,360 INFO houses.py:26 hit redis area_info
+2019-01-04 14:31:22,085 INFO houses.py:26 hit redis area_info
+2019-01-04 14:32:23,441 INFO houses.py:26 hit redis area_info
+2019-01-04 14:32:45,632 INFO houses.py:26 hit redis area_info
+2019-01-04 14:32:59,297 INFO houses.py:26 hit redis area_info
+2019-01-04 14:33:15,610 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 14:33:18,398 INFO houses.py:26 hit redis area_info
+2019-01-04 14:34:06,294 INFO houses.py:26 hit redis area_info
+2019-01-04 14:34:53,162 INFO houses.py:26 hit redis area_info
+2019-01-04 14:35:15,253 INFO houses.py:26 hit redis area_info
+2019-01-04 14:37:45,222 INFO houses.py:26 hit redis area_info
+2019-01-04 14:51:00,636 INFO houses.py:26 hit redis area_info
+2019-01-04 15:16:54,075 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 15:18:48,697 INFO houses.py:26 hit redis area_info
+2019-01-04 15:18:51,635 INFO houses.py:249 hit house index info redis
+2019-01-04 15:18:51,639 INFO houses.py:26 hit redis area_info
+2019-01-04 15:19:07,054 INFO houses.py:249 hit house index info redis
+2019-01-04 15:19:07,250 INFO houses.py:26 hit redis area_info
+2019-01-04 15:19:14,630 INFO houses.py:249 hit house index info redis
+2019-01-04 15:19:14,880 INFO houses.py:26 hit redis area_info
+2019-01-04 15:19:20,338 INFO houses.py:26 hit redis area_info
+2019-01-04 15:20:41,275 INFO houses.py:26 hit redis area_info
+2019-01-04 15:21:41,983 INFO houses.py:305 hit house info redis
+2019-01-04 15:21:51,391 INFO houses.py:26 hit redis area_info
+2019-01-04 15:21:56,888 INFO houses.py:249 hit house index info redis
+2019-01-04 15:21:57,140 INFO houses.py:26 hit redis area_info
+2019-01-04 15:40:22,158 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 15:41:11,140 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 15:41:28,669 INFO houses.py:26 hit redis area_info
+2019-01-04 15:42:39,287 ERROR houses.py:375 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 15:48:24,649 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 16:13:10,930 WARNING _internal.py:88  * Debugger is active!
+2019-01-04 16:13:29,978 ERROR houses.py:377 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 16:45:56,527 WARNING _internal.py:88  * Debugger is active!
