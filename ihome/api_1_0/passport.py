@@ -159,5 +159,7 @@ def check_login():
 def logout():
     """登出"""
     # 清除session数据
+    csrf_token = session['csrf_token']
     session.clear()
+    session['csrf_token'] = csrf_token
     return jsonify(errno=RET.OK, errmsg='ok')

@@ -21,7 +21,7 @@ def login_required(func):
         if user_id:
             # 将user_id保存到g对象中，在视图函数中可以通过g对象获取保存数据
             g.user_id = user_id
-            return func(*args, *kwargs)
+            return func(*args, **kwargs)
         else:
             # 如果未登录，返回未登录的信息
             return jsonify(errno=RET.SESSIONERR, errmsg='用户未登录')
