@@ -2,6 +2,7 @@ function hrefBack() {
     history.go(-1);
 }
 
+// 解析提取url中的查询字符串参数
 function decodeQuery(){
     var search = decodeURI(document.location.search);
     return search.replace(/(^\?)/, '').split('&').reduce(function(result, item){
@@ -11,27 +12,21 @@ function decodeQuery(){
     }, {});
 }
 
-$(function(){
+$(document).ready(function(){
     // 获取详情页面要展示的房屋编号
     var queryData = decodeQuery();
     var houseId = queryData["id"];
 
-    // 获取房屋的详细信息
-    $.ajax({
-        url: '/api/v1.0/houses/'+houseId,
-        type: 'get',
-        dataType: 'json'
-    }).done(function (resp) {
-        if (resp.errno == '0'){
-            var img_html = template('house-image-tmpl', {img_urls: resp.data.house.img_urls, price: resp.data.house.price});
-            $('.swiper-wrapper').html(img_html);
-            var html = template('house-detail-tmpl', {house: resp.data.house})
-            $('.detail-con').html(html)
+    // 获取该房屋的详细信息
+    $.get("/api/v1.0/houses/" + houseId, function(resp){
+        if ("0" == resp.errno) {
+            $(".swiper-container").html(template("house-image-tmpl", {img_urls:resp.data.house.img_urls, price:resp.data.house.price}));
+            $(".detail-con").html(template("house-detail-tmpl", {house:resp.data.house}));
 
-            // resp.data.user_id为访问页面用户,resp.data.house.user_id为房东
-            if (resp.data.user_id != resp.data.house.user_id){
-                $('.book-house').prop('href', '')
-                $('.book-house').show();
+            // resp.user_id为访问页面用户,resp.data.user_id为房东
+            if (resp.data.user_id != resp.data.house.user_id) {
+                $(".book-house").attr("href", "/booking.html?hid="+resp.data.house.hid);
+                $(".book-house").show();
             }
             var mySwiper = new Swiper ('.swiper-container', {
                 loop: true,
@@ -39,7 +34,7 @@ $(function(){
                 autoplayDisableOnInteraction: false,
                 pagination: '.swiper-pagination',
                 paginationType: 'fraction'
-            })
+            });
         }
     })
-});
+})

@@ -560,3 +560,208 @@ WARNING _internal.py:88  * Debugger is active!
 2019-01-04 16:13:10,930 WARNING _internal.py:88  * Debugger is active!
 2019-01-04 16:13:29,978 ERROR houses.py:377 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
 2019-01-04 16:45:56,527 WARNING _internal.py:88  * Debugger is active!
+2019-01-07 09:16:38,343 WARNING _internal.py:88  * Debugger is active!
+2019-01-07 09:17:00,280 INFO houses.py:249 hit house index info redis
+2019-01-07 09:17:00,283 INFO houses.py:26 hit redis area_info
+2019-01-07 09:17:27,705 INFO houses.py:26 hit redis area_info
+2019-01-07 09:17:30,201 INFO houses.py:305 hit house info redis
+2019-01-07 09:17:42,232 INFO houses.py:305 hit house info redis
+2019-01-07 09:17:50,838 INFO houses.py:249 hit house index info redis
+2019-01-07 09:17:50,842 INFO houses.py:26 hit redis area_info
+2019-01-07 09:18:04,388 INFO houses.py:26 hit redis area_info
+2019-01-07 09:18:43,278 INFO houses.py:249 hit house index info redis
+2019-01-07 09:18:43,281 INFO houses.py:26 hit redis area_info
+2019-01-07 09:18:51,285 INFO houses.py:26 hit redis area_info
+2019-01-07 09:26:12,272 WARNING _internal.py:88  * Debugger is active!
+2019-01-07 09:26:19,386 WARNING _internal.py:88  * Debugger is active!
+2019-01-07 10:11:14,851 INFO houses.py:249 hit house index info redis
+2019-01-07 10:11:14,856 INFO houses.py:26 hit redis area_info
+2019-01-07 10:11:17,774 INFO houses.py:249 hit house index info redis
+2019-01-07 10:11:17,777 INFO houses.py:26 hit redis area_info
+2019-01-08 15:24:50,428 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 15:25:07,579 ERROR houses.py:33 (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on 'localhost' (10061) (Background on this error at: http://sqlalche.me/e/4xp6)
+2019-01-08 15:25:18,817 ERROR houses.py:33 (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on 'localhost' (10061) (Background on this error at: http://sqlalche.me/e/4xp6)
+2019-01-08 15:25:28,204 ERROR houses.py:33 (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on 'localhost' (10061) (Background on this error at: http://sqlalche.me/e/4xp6)
+2019-01-08 15:25:55,391 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 15:26:13,509 INFO houses.py:249 hit house index info redis
+2019-01-08 15:26:13,512 INFO houses.py:26 hit redis area_info
+2019-01-08 15:27:10,238 INFO houses.py:249 hit house index info redis
+2019-01-08 15:27:10,241 INFO houses.py:26 hit redis area_info
+2019-01-08 15:27:13,277 INFO houses.py:249 hit house index info redis
+2019-01-08 15:27:13,280 INFO houses.py:26 hit redis area_info
+2019-01-08 15:27:48,279 INFO houses.py:249 hit house index info redis
+2019-01-08 15:27:48,283 INFO houses.py:26 hit redis area_info
+2019-01-08 15:27:58,876 INFO houses.py:305 hit house info redis
+2019-01-08 15:28:02,618 INFO houses.py:305 hit house info redis
+2019-01-08 15:32:36,432 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 15:32:41,227 INFO houses.py:305 hit house info redis
+2019-01-08 15:32:43,440 INFO houses.py:305 hit house info redis
+2019-01-08 15:33:23,853 INFO houses.py:305 hit house info redis
+2019-01-08 15:33:25,988 INFO houses.py:305 hit house info redis
+2019-01-08 15:34:00,663 INFO houses.py:249 hit house index info redis
+2019-01-08 15:34:00,668 INFO houses.py:26 hit redis area_info
+2019-01-08 15:34:03,238 INFO houses.py:305 hit house info redis
+2019-01-08 15:34:19,598 INFO houses.py:305 hit house info redis
+2019-01-08 15:34:21,746 INFO houses.py:305 hit house info redis
+2019-01-08 15:35:07,112 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 15:35:07,791 INFO houses.py:305 hit house info redis
+2019-01-08 15:36:27,752 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 15:38:18,600 INFO houses.py:249 hit house index info redis
+2019-01-08 15:38:18,604 INFO houses.py:26 hit redis area_info
+2019-01-08 15:38:19,906 INFO houses.py:305 hit house info redis
+2019-01-08 15:38:22,459 INFO houses.py:305 hit house info redis
+2019-01-08 15:38:59,979 INFO houses.py:249 hit house index info redis
+2019-01-08 15:38:59,982 INFO houses.py:26 hit redis area_info
+2019-01-08 15:39:03,468 INFO houses.py:249 hit house index info redis
+2019-01-08 15:39:03,512 INFO houses.py:26 hit redis area_info
+2019-01-08 15:39:28,827 INFO houses.py:249 hit house index info redis
+2019-01-08 15:39:28,830 INFO houses.py:26 hit redis area_info
+2019-01-08 15:39:47,788 ERROR orders.py:146 'NoneType' object has no attribute 'house'
+2019-01-08 15:39:54,600 ERROR orders.py:146 'NoneType' object has no attribute 'house'
+2019-01-08 15:40:09,521 ERROR orders.py:146 'NoneType' object has no attribute 'house'
+2019-01-08 15:45:52,897 ERROR orders.py:146 'NoneType' object has no attribute 'house'
+2019-01-08 15:46:48,600 ERROR orders.py:146 'NoneType' object has no attribute 'house'
+2019-01-08 15:56:01,416 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 15:56:12,191 ERROR orders.py:146 'NoneType' object has no attribute 'house'
+2019-01-08 16:01:45,658 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:04:35,075 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:04:38,391 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:04:51,997 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:06:46,437 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:06:46,966 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:07:50,503 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:07:57,581 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:09:27,219 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:11:17,893 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:11:53,993 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:11:57,709 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:12:14,252 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:12:17,765 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:15:51,458 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:15:54,639 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:17:59,579 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:18:05,676 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:36:00,107 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:36:05,603 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:37:32,908 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:37:58,754 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:38:02,456 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:38:19,677 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:38:36,714 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:38:42,905 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:38:46,096 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:41:06,324 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:41:09,783 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:49:52,047 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:52:14,299 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:14,305 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:14,310 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:14,325 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:14,509 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:14,688 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:14,885 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:15,087 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:15,246 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:15,405 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:15,589 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:15,779 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:15,959 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:16,149 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:16,318 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:16,520 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:16,681 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:16,880 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:17,079 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:17,257 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:17,433 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:17,618 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:17,789 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:17,949 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:18,144 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:52:41,612 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:57:32,017 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 16:57:34,932 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 16:59:27,661 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 17:02:09,802 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 17:02:36,779 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 17:03:21,305 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 17:03:26,309 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 17:09:58,642 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 17:10:23,450 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 17:10:41,955 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 17:10:47,896 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 17:11:24,445 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 17:11:56,829 WARNING _internal.py:88  * Debugger is active!
+2019-01-08 17:12:07,883 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-08 17:12:30,928 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 08:44:31,396 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 08:45:12,201 INFO houses.py:305 hit house info redis
+2019-01-09 08:45:42,696 INFO houses.py:249 hit house index info redis
+2019-01-09 08:45:42,700 INFO houses.py:26 hit redis area_info
+2019-01-09 08:45:55,305 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 09:18:37,685 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 09:18:42,101 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 09:18:44,268 ERROR orders.py:113 (mysql.connector.errors.ProgrammingError) 1049 (42000): Unknown database 'ihome' (Background on this error at: http://sqlalche.me/e/f405)
+2019-01-09 09:18:48,198 ERROR profile.py:27 (mysql.connector.errors.ProgrammingError) 1049 (42000): Unknown database 'ihome' (Background on this error at: http://sqlalche.me/e/f405)
+2019-01-09 09:21:04,744 ERROR profile.py:27 (mysql.connector.errors.ProgrammingError) 1049 (42000): Unknown database 'ihome' (Background on this error at: http://sqlalche.me/e/f405)
+2019-01-09 09:25:05,699 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 09:25:17,978 INFO houses.py:249 hit house index info redis
+2019-01-09 09:25:17,980 INFO houses.py:26 hit redis area_info
+2019-01-09 09:26:39,103 INFO houses.py:26 hit redis area_info
+2019-01-09 09:50:22,909 ERROR profile.py:27 (mysql.connector.errors.OperationalError) MySQL Connection not available. [SQL: 'SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url \nFROM ih_user_profile \nWHERE ih_user_profile.id = %(id_1)s \n LIMIT %(param_1)s'] [parameters: [{}]] (Background on this error at: http://sqlalche.me/e/e3q8)
+2019-01-09 09:50:47,028 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 09:50:48,459 INFO houses.py:249 hit house index info redis
+2019-01-09 09:50:48,464 INFO houses.py:26 hit redis area_info
+2019-01-09 09:50:55,326 INFO houses.py:249 hit house index info redis
+2019-01-09 09:50:55,328 INFO houses.py:26 hit redis area_info
+2019-01-09 09:51:03,635 INFO houses.py:26 hit redis area_info
+2019-01-09 09:57:16,600 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 09:57:54,822 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:06:22,416 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:06:22,619 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:06:22,661 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:06:22,805 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:06:22,976 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:06:23,161 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:06:23,303 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:18:36,790 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 10:20:07,492 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 10:21:07,767 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 10:21:56,353 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:22:40,544 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 10:50:31,837 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:51:08,736 ERROR orders.py:147 'NoneType' object has no attribute 'house'
+2019-01-09 10:52:05,064 INFO houses.py:305 hit house info redis
+2019-01-09 10:53:41,301 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 10:53:54,291 ERROR orders.py:151 'NoneType' object has no attribute 'house'
+2019-01-09 10:55:12,180 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:01:52,388 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:03:08,646 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:09:44,309 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:12:24,483 INFO houses.py:249 hit house index info redis
+2019-01-09 11:12:24,485 INFO houses.py:26 hit redis area_info
+2019-01-09 11:12:26,855 INFO houses.py:305 hit house info redis
+2019-01-09 11:12:38,746 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:15:46,006 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:15:51,572 INFO houses.py:306 hit house info redis
+2019-01-09 11:16:14,258 INFO houses.py:249 hit house index info redis
+2019-01-09 11:16:14,262 INFO houses.py:26 hit redis area_info
+2019-01-09 11:16:19,052 INFO houses.py:249 hit house index info redis
+2019-01-09 11:16:19,054 INFO houses.py:26 hit redis area_info
+2019-01-09 11:16:28,006 INFO houses.py:249 hit house index info redis
+2019-01-09 11:16:28,009 INFO houses.py:26 hit redis area_info
+2019-01-09 11:17:29,544 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:21:48,843 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:22:14,307 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:24:09,617 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:25:50,152 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:26:52,396 INFO houses.py:249 hit house index info redis
+2019-01-09 11:26:52,398 INFO houses.py:26 hit redis area_info
+2019-01-09 11:26:55,421 INFO houses.py:249 hit house index info redis
+2019-01-09 11:26:55,428 INFO houses.py:26 hit redis area_info
+2019-01-09 11:28:32,633 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:28:46,960 INFO houses.py:249 hit house index info redis
+2019-01-09 11:28:46,964 INFO houses.py:26 hit redis area_info
+2019-01-09 11:29:21,627 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:29:27,995 WARNING _internal.py:88  * Debugger is active!
+2019-01-09 11:30:45,762 WARNING _internal.py:88  * Debugger is active!
