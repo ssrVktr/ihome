@@ -1,3 +1,12 @@
+config.py
+sms.py
+logs/
+image_storage.py
+.qiniu_pythonsdk_hostscache.json
+keys/
+app_private_key.pem
+alipay_public_key.pem
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -108,10 +117,3 @@ base_settings.py
 __pycache__/
 .idea/
 
-config.py
-sms.py
-logs/
-image_storage.py
-.qiniu_pythonsdk_hostscache.json
-app_private_key.pem
-alipay_public_key.pem
