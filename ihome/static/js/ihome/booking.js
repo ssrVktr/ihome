@@ -16,11 +16,12 @@ function decodeQuery(){
     }, {});
 }
 
-function showErrorMsg() {
-    $('.popup_con').fadeIn('fast', function() {
+function showErrorMsg(msg) {
+    $('.popup_con p').html(msg)
+    $('.popup_con').fadeIn('fast','swing', function() {
         setTimeout(function(){
-            $('.popup_con').fadeOut('fast',function(){});
-        },1000)
+            $('.popup_con').fadeOut('fast','swing',function(){});
+        },2000)
     });
 }
 

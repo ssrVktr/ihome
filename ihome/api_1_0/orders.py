@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 
 from . import api
 from flask import request, g, jsonify, current_app
@@ -33,8 +33,8 @@ def save_order():
     # 日期格式检查
     try:
         # 将请求的时间参数字符串转换为datetime类型
-        start_date = datetime.datetime.strptime(start_date_str, '%Y-%m-%d')
-        end_date = datetime.datetime.strptime(end_date_str, '%Y-%m-%d')
+        start_date = datetime.strptime(start_date_str, '%Y-%m-%d')
+        end_date = datetime.strptime(end_date_str, '%Y-%m-%d')
         assert start_date <= end_date
         # 计算预订的天数
         days = (end_date - start_date).days + 1  # datetime.timedelta
@@ -57,10 +57,9 @@ def save_order():
 
     # 确保用户预订的时间内，房屋没有被别人下单
     try:
-        # 查询时间冲突的订单数
+        # 查询时间冲突的订单数,被拒绝的订单的日期应该仍然可以选择,所以排除订单状态为“已拒单”的订单
         count = Order.query.filter(Order.house_id == house_id, Order.begin_date <= end_date,
-                                   Order.end_date >= start_date).count()
-        #  select count(*) from order where ....
+                                   Order.end_date >= start_date, Order.status != 'REJECTED').count()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='检查出错，请稍候重试')
@@ -100,12 +99,12 @@ def get_user_orders():
     """
     user_id = g.user_id
 
-    # 用户的身份，用户想要查询作为房客预订别人房子的订单，还是想要作为房东查询别人预订自己房子的订单
+    # 用户的身份，用户想要查询作为房客预订别人房子的订单custom，还是想要作为房东查询别人预订自己房子的订单landlord
     role = request.args.get('role', '')
 
     # 查询订单数据
     try:
-        if "landlord" == role:
+        if role == "landlord":
             # 以房东的身份查询订单
             # 先查询属于自己的房子有哪些
             houses = House.query.filter(House.user_id == user_id).all()
